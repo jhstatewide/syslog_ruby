@@ -4,9 +4,9 @@ require File.expand_path('../lib/syslog_ruby/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["John Skopis"]
   gem.email         = ["john.skopis@causes.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Pure ruby version of syslog.}
+  gem.summary       = %q{Pure ruby implementation of syslog.}
+  gem.homepage      = "https://github.com/jhstatewide/syslog_ruby"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
